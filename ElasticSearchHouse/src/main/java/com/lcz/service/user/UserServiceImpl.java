@@ -34,7 +34,7 @@ public class UserServiceImpl implements IUserService  {
 	@Autowired
 	private ModelMapper modelMapper;
 
-	//MD5 通过用户id 加盐 生成密码。
+	//MD5 通过用户id 加盐 生成密码。再通过加盐的方式进行验证
 	private final Md5PasswordEncoder passwordEncoder = new Md5PasswordEncoder();
 
 	@Override
