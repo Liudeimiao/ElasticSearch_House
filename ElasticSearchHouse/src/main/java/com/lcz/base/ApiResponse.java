@@ -3,6 +3,7 @@ package com.lcz.base;
 /**
  * API格式封装
  * @author ldm
+ * time 2018年12月11日10:45:27
  *
  */
 public class ApiResponse {
